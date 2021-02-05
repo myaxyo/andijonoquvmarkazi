@@ -1,0 +1,30 @@
+.logo {
+    margin: 30px 0px 0px 60px;
+    border: 2px $primary solid;
+    border-radius: 7%;
+    width: 150px;
+    color: lighten($primary, 50);
+    font-family: $mfont;
+    line-height: 25px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+
+
+    .logo-text {
+        margin: 7px;
+    }
+
+    .line-logo {
+        width: 3px;
+        height: 70px;
+        background: lighten($primary, 50);
+        margin-left: 5px;
+    }
+    .line-logo2 {
+        width: 3px;
+        height: 70px;
+        background: lighten($primary, 50);
+        margin-left: 5px;
+    }
+}
